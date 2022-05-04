@@ -1,0 +1,24 @@
+@import 'typography', 'colors', 'variables';
+
+html {
+    font-size: $fontSizeBase;
+    font-size: 100%;
+
+    @media screen and (max-width :$mobileScreenBreakpoint) {
+        font-size: $fontSizeSmall;
+    }
+}
+
+body {
+    font-family: $fontFamily;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $darkBlue;
+}
