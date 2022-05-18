@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import Tiles from "../components/Tiles";
 import Profile from "../components/Profile";
 import "../css/dashboard.scss";
